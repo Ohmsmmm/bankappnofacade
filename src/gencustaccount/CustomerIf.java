@@ -15,5 +15,5 @@ public interface CustomerIf {
     public String getCustomerName();
     public int getNumAccounts();
     public AccountIf getAccount(int accNo);
-    public ArrayList<AccountIf> getllAccounts();
+    public ArrayList<AccountIf> getAllAccounts();
 }

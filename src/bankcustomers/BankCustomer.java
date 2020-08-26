@@ -45,7 +45,7 @@ public class BankCustomer implements CustomerIf {
     }
     
     @Override
-    public ArrayList<AccountIf> getllAccounts() {
+    public ArrayList<AccountIf> getAllAccounts() {
         return accounts;
     }
 }
